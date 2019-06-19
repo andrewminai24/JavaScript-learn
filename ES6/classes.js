@@ -10,6 +10,12 @@ class Person6 {
         this.yearOfBirth;
         console.log(age);
     }
+    //Static methods are not inherited
+    static greeting(){
+        console.log('Hey there');
+    }
 }
 const john6 = new Person6('John',1990,'teacher');
 console.log(john6);
+
+Person6.greeting();
