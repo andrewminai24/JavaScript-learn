@@ -1,0 +1,21 @@
+HTTP methods
+
+Get : Retrieve data from specified resource
+
+POST: Submit data to be processed to sepecified resouce 
+
+PUT:UPDATE  specified resource
+
+DELETE: Delete a specified resource
+
+HEAD : Same as get but does not return a body
+
+OPTIONS: Returns the supported HTTP methods
+
+PATCH: Update partial resources
+
+functions and variables are hoisted in JavaScript 
+
+which means they are avaialable before the execution  phase starts
+
+and variables are setup as undefined.
